@@ -1,0 +1,13 @@
+def CadatroUsuario():
+ x = 0
+ while x == 0:
+  nome = str(input('Nome do usuario: '))
+  senha = str(input('Senha do usuario: '))
+  if nome == senha:
+   print('Sua senha deve ser diferente do usuario')
+   x = 0
+  else:
+   print('Usuario cadastrado')
+   x = 1
+  
+CadatroUsuario()
